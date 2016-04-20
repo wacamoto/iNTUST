@@ -1,0 +1,104 @@
+ol, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ddd;
+}
+
+.search-box {
+    width: 100vw;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, .5);
+
+    background-image: url("http://static.panoramio.com/photos/original/40810638.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.search {
+    width: 50%;
+    position: relative;
+}
+
+#search {
+    box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 40px 10px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #aaa;
+    font-size: 1.3em;
+    background-color: rgba(0, 0, 0, .75);
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    
+}
+
+.nav {
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.logo {
+    padding: 15px 10px;
+    margin: 0px 30px 0px 15px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.nav li {
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+.nav li:hover {
+    background-color: #444;
+}
+
+.blocks-box {
+    width: 100vw;
+    height: 100vh;
+}
+
+.block-wall {
+    width: 80%;
+    margin: auto;
+}
+
+.block {
+    box-sizing: border-box;
+    height: 180px;
+    border: 1px dotted #ddd;
+    margin: 5px;
+}
+
+.drag-box {
+    color: red;
+    width: 100%;
+    border: 2px solid #ccc;
+    align-items:stretch;
+
+    background-size: cover;
+    background-position: center;
+}
